@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/thomaskleist/CLionProjects/DS/DockerUtil.cpp">
+			<Option target="DS"/>
+		</Unit>
+		<Unit filename="/Users/thomaskleist/CLionProjects/DS/DockerUtil.h">
+			<Option target="DS"/>
+		</Unit>
 		<Unit filename="/Users/thomaskleist/CLionProjects/DS/main.cpp">
 			<Option target="DS"/>
 		</Unit>

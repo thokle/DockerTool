@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/DS.dir/DockerUtil.cpp.o"
   "CMakeFiles/DS.dir/main.cpp.o"
   "DS"
   "DS.pdb"

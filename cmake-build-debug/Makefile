@@ -142,6 +142,33 @@ DS/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DS.dir/build.make CMakeFiles/DS.dir/build
 .PHONY : DS/fast
 
+DockerUtil.o: DockerUtil.cpp.o
+
+.PHONY : DockerUtil.o
+
+# target to build an object file
+DockerUtil.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DS.dir/build.make CMakeFiles/DS.dir/DockerUtil.cpp.o
+.PHONY : DockerUtil.cpp.o
+
+DockerUtil.i: DockerUtil.cpp.i
+
+.PHONY : DockerUtil.i
+
+# target to preprocess a source file
+DockerUtil.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DS.dir/build.make CMakeFiles/DS.dir/DockerUtil.cpp.i
+.PHONY : DockerUtil.cpp.i
+
+DockerUtil.s: DockerUtil.cpp.s
+
+.PHONY : DockerUtil.s
+
+# target to generate assembly for a file
+DockerUtil.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DS.dir/build.make CMakeFiles/DS.dir/DockerUtil.cpp.s
+.PHONY : DockerUtil.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -178,6 +205,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... DS"
+	@echo "... DockerUtil.o"
+	@echo "... DockerUtil.i"
+	@echo "... DockerUtil.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

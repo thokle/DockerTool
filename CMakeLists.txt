@@ -3,4 +3,4 @@ project(DS)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(DS main.cpp)
+add_executable(DS main.cpp DockerUtil.cpp DockerUtil.h)
